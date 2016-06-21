@@ -1,0 +1,8 @@
+{% block content %}
+<h1>p-sum test</h1>
+<TABLE BORDER=2 CELLPADDING=10>
+{% for p, psump in data.iteritems() %}
+<TR><TD>{{p}}</TD><TD>{{psump}}</TD></TR>
+{% endfor %}
+</TABLE>
+{% endblock %}
